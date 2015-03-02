@@ -9,6 +9,7 @@ public:
     int largestRectangleArea(vector<int> &h) {
 
     	int max_h = 0;
+    	// Note this is a brute force solution (On^2) and will fail in leetcode
     	for(int i=0;i<h.size();i++)
     	{
     		int cur = h[i];
